@@ -8,7 +8,6 @@
 .navbar {
 
     display: flex ;
-    justify-content: left;
     align-items: center;
 
     background: rgba(0, 0, 0, 1);
@@ -19,6 +18,8 @@
 .nav-list {
 
     display: flex;
+    justify-content: left;
+    width: 80%;
     flex-direction: row;
     padding-left: 50px;
 }
@@ -32,11 +33,39 @@
     text-decoration: none;
     color: white;
      
-    
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
 }
 
 .nav-list li a:hover{
     color: rgb(221, 218, 218);   
+}
+
+.portfolio-banner {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 20%;
+    padding: 26px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.pb-left {
+    color: white;
+    justify-content: right;
+    margin-left: 63px;
+}
+
+.pb-right {
+    color: yellow;
+    justify-content: left;
+}
+
+.pb-left:hover{
+    color: yellow;    
+}
+
+.pb-right:hover {
+    color: white;
 }
