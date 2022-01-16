@@ -1,8 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu&display=swap');
 
 * {
     margin: 0;
     padding: 0;
+}
+
+/* For smooth scroll */
+html {
+    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -13,6 +18,11 @@
     background: rgba(0, 0, 0, 1);
     background-size: cover;
     background-blend-mode: darken;
+
+    /* Sticky navbar */
+    position: sticky;
+    top: 0;
+    cursor: pointer;
 }
 
 .nav-list {
@@ -26,7 +36,7 @@
 
 .nav-list li {
     list-style: none;
-    padding: 26px 30px;
+    padding: 23px 30px;
 }
 
 .nav-list li a {
@@ -34,11 +44,15 @@
     color: white;
      
     font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
+    font-size: 18px;    
 }
 
 .nav-list li a:hover{
-    color: rgb(221, 218, 218);   
+    color: rgb(221, 218, 218); 
+    padding: 10px 0px;
+    border-bottom: 4px solid rgb(221, 218, 218);
+    /* border-top: 4px solid rgb(221, 218, 218);   */
+    /* border-radius: 10px; */
 }
 
 .portfolio-banner {
@@ -46,7 +60,7 @@
     align-items: center;
     flex-direction: row;
     width: 20%;
-    padding: 26px 0px;
+    padding: 23px 0px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
 }
@@ -60,6 +74,7 @@
 .pb-right {
     color: yellow;
     justify-content: left;
+    margin-right: 63px;
 }
 
 .pb-left:hover{
@@ -68,4 +83,57 @@
 
 .pb-right:hover {
     color: white;
+}
+
+.landing {
+    height: 100vh;
+}
+
+.background {
+    background: rgba(141, 43, 43, 0.7) url('../img/bg1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.landing-img img{
+    border: 4px solid white;
+    border-radius: 80px;
+    max-width: 20%;
+
+    display: block;
+    margin: auto;
+}
+
+.intro {
+    padding: 23px;
+    text-align: center;
+}
+
+.intro h2 {
+    font-weight:10;
+}
+
+.intro h3 {
+    font-weight:10;
+}
+
+.intro h4 {
+    font-weight:10;
+}
+
+#home:active {
+    text-decoration: underline;
 }
