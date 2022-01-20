@@ -134,6 +134,10 @@ html {
     font-weight:10;
 }
 
+.about {
+    height: 100vh;
+}
+
 #home:active {
     text-decoration: underline;
 }
