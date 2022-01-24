@@ -159,7 +159,7 @@ html {
     text-align: justify;
 
     font-family: 'Baloo Bhai 2', cursive;
-    max-width: 50%;
+    max-width: 60%;
     margin: auto;
 }
 
@@ -175,10 +175,15 @@ html {
     height: 100vh;
 }
 
+/* 
+.skills .title::after {
+    content: "what i know";
+} */
+
 .skills-start {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
 
     font-family: 'Baloo Bhai 2', cursive;
@@ -186,18 +191,65 @@ html {
     margin: auto;
 }
 
-.skills-start h1 {
-    color: white;
+.skills-start .title {
+    color: lightgray;
+    display: block;
+    margin: 100px auto;
+    padding: 0;
+    border-bottom: 2.5px solid lightgray;
 }
 
 .bars {
     color: white;
-    max-width: 70%;
+    margin-bottom: 30px;
     font-size: 23px;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.bars .info {
+    
+    display: flex;
     justify-content: space-between;
+}
+
+.bars span {
+    font-weight: 500;   
+}
+
+.bars .line {
+    height: 4px;
+    width: 100%;
+    background: lightgray;
+    position: relative;
+}
+
+.bars .line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: yellow;
+}
+
+.bars .cpp::before {
+    width: 90%;
+}
+
+.bars .competitive-coding::before {
+    width: 60%;
+}
+
+.bars .blockchain::before {
+    width: 50%;
+}
+
+.bars .front-end::before {
+    width: 40%;
+}
+
+.bars .back-end::before {
+    width: 70%;
 }
 
 #home:active {
