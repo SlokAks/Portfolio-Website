@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* For smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+
+    display: flex ;
+    align-items: center;
+
+    background: rgba(0, 0, 0, 1);
+    background-size: cover;
+    background-blend-mode: darken;
+
+    /* Sticky navbar */
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+
+    display: flex;
+    justify-content: left;
+    width: 80%;
+    flex-direction: row;
+    padding-left: 50px;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 23px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+     
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;    
+}
+
+.nav-list li a:hover{
+    color: rgb(221, 218, 218); 
+    padding: 10px 0px;
+    border-bottom: 4px solid rgb(221, 218, 218);
+    /* border-top: 4px solid rgb(221, 218, 218);   */
+    /* border-radius: 10px; */
+}
+
+.portfolio-banner {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 20%;
+    padding: 23px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 23px;
+}
+
+.pb-left {
+    color: white;
+    justify-content: right;
+    margin-left: 63px;
+}
+
+.pb-right {
+    color: yellow;
+    justify-content: left;
+    margin-right: 63px;
+}
+
+.pb-left:hover{
+    color: yellow;    
+}
+
+.pb-right:hover {
+    color: white;
+}
+
+.landing {
+    height: 100vh;
+}
+
+.background {
+    background: rgba(141, 43, 43, 0.7) url('../img/bg1.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.landing-img img{
+    border: 4px solid white;
+    border-radius: 80px;
+    max-width: 20%;
+
+    display: block;
+    margin: auto;
+}
+
+.intro {
+    padding: 23px;
+    text-align: center;
+}
+
+.intro h2 {
+    font-weight:10;
+    font-size: 33px;
+}
+
+.intro h3 {
+    font-weight:10;
+    font-size: 23px;
+}
+
+.intro h4 {
+    font-weight:10;
+    font-size: 20px;
+}
+
+.title {
+    margin-top: 80px;
+    
+    padding: 13px;
+    font-size: 40px;
+}
+
+.about {
+    height: 100vh;
+    background-color: rgb(248, 242, 227);
+    /* background: rgba(0, 0, 0, 0.7) url('../img/bg.jpg');
+    background-size: cover; */
+    /* background-blend-mode: darken; */
+}
+
+.about-start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+
+    font-family: 'Baloo Bhai 2', cursive;
+    max-width: 50%;
+    margin: auto;
+}
+
+.about-start p {
+    font-size: 23px;
+    padding: 23px;
+}
+
+.skills {
+    background: rgba(141, 43, 43, 0.8) url('../img/bg-dark1.jpg'); 
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100vh;
+}
+
+.skills-start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Baloo Bhai 2', cursive;
+    max-width: 50%;
+    margin: auto;
+}
+
+.skills-start h1 {
+    color: white;
+}
+
+.bars {
+    color: white;
+    max-width: 70%;
+    font-size: 23px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#home:active {
+    text-decoration: underline;
+}
