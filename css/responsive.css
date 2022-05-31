@@ -3,9 +3,13 @@
     .burger {
         visibility: visible;
     }
+
+    /* .navbar {
+        transition: all 0.7s ease-out;
+        height: 500px;
+    } */
     
     .nav-list {
-        display: none;
         flex-direction: column;
         width: 70%;
     }
@@ -20,7 +24,11 @@
         margin: 0;
     }
 
-    .nav-bar {
-        flex-direction: column;
+    .h-nav-resp {
+        height: 0%;
+    }
+
+    .v-class-resp {
+        display: none;
     }
 }

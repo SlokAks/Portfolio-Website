@@ -32,14 +32,13 @@ html {
 
 .burger {
     color: white;
-    visibility: hidden;
     position: absolute;
+    visibility: hidden;
     right: 5%;
     top: 37px;
 }
 
 .nav-list {
-
     display: flex;
     justify-content: left;
     width: 80%;
