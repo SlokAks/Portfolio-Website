@@ -1,0 +1,26 @@
+@media only screen and (max-width: 905px) {
+    
+    .burger {
+        visibility: visible;
+    }
+    
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .portfolio-banner {
+        padding: 23px 30px;
+        width: 30%;
+        justify-content: center;
+    }
+
+    .pb-left, .pb-right {
+        margin: 0;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+    }
+}

@@ -17,7 +17,6 @@ html {
 } */
 
 .navbar {
-
     display: flex ;
     align-items: center;
 
@@ -29,6 +28,14 @@ html {
     position: sticky;
     top: 0;
     cursor: pointer;
+}
+
+.burger {
+    color: white;
+    visibility: hidden;
+    position: absolute;
+    right: 5%;
+    top: 37px;
 }
 
 .nav-list {
