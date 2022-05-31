@@ -10,8 +10,13 @@ html {
     scroll-behavior: smooth;
 }
 
-.navbar {
+/* .WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+} */
 
+.navbar {
     display: flex ;
     align-items: center;
 
@@ -25,8 +30,15 @@ html {
     cursor: pointer;
 }
 
-.nav-list {
+.burger {
+    color: white;
+    position: absolute;
+    visibility: hidden;
+    right: 5%;
+    top: 37px;
+}
 
+.nav-list {
     display: flex;
     justify-content: left;
     width: 80%;
@@ -135,6 +147,11 @@ html {
     font-size: 20px;
 }
 
+.links {
+    display: flex;
+    align-items: center;
+}
+
 .chevron {
     padding: 23px;
 }
@@ -197,6 +214,65 @@ html {
     margin: 100px auto;
     padding: 0 13px;
     border-bottom: 2.5px solid lightgray;
+}
+
+.project {
+    padding-top: 63px;
+    padding-bottom: 63px;
+    background-color: rgb(248, 242, 227);
+}
+
+.project .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-family: 'Baloo Bhai 2', cursive;
+    max-width: 60%;
+    margin: auto;
+}
+
+.project-start {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Baloo Bhai 2', cursive;
+    max-width: 90%;
+    margin: auto;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    min-height: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 63px 17px;
+    position: relative;
+}
+
+.project-title {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Baloo Bhai 2', cursive;
+    border-bottom: 2px solid black;
+}
+
+.project-card p {
+    padding-top: 7px;
+    text-align: center;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: black;
+    
+    /* padding-top: 15px; */
+    position: absolute;
+    bottom: 0;
+    left: 10px;
 }
 
 .bars {
@@ -314,13 +390,14 @@ html {
 
 .links {
     padding-bottom: 23px;
+    padding-right: 17px;
 }
 
 .links a {
     text-decoration: none;
     font-size: 43px;
     color:aliceblue;
-    padding: 0 23px;
+    margin: 0 23px;
 }
 
 .text-footer {

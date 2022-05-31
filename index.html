@@ -7,15 +7,21 @@
     <title>Slok Aks</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
     <script src="https://kit.fontawesome.com/1dd76bfeda.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
-    <div class="navbar">
-        <ul class="nav-list">
+    <div class="navbar h-nav-resp">
+
+        <i class="fa-solid fa-bars burger fa-lg"></i>
+
+        <ul class="nav-list v-class-resp">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#project">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
 
@@ -133,8 +139,43 @@
         
     </section>
 
-    <section class="projects" id="projects">
+    <section class="project" id="project">
         
+        <h1 class="title">Projects</h1>
+
+        <div class="project-start">
+            
+            <div class="project-card">
+                <h3 class="project-title">Cryptocurrency Exchange</h3>
+
+                <p>A decentralized cryptocurrency exchange portal that allows exchange between two ERC20 tokens, built upon Ethereum ecosystem.</p>
+
+                <a href="https://github.com/SlokAks/crypto-exchange" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-link"></i>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3 class="project-title">Kickstarter Application</h3>
+
+                <p>An application to raise funds for project ideas which includes a voting system to ensure no misappropriation of raised funds.</p>
+
+                <a href="https://github.com/SlokAks/Kickstarter-Campaigns" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-link"></i>
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3 class="project-title">Parking Management System</h3>
+
+                <p>An android application to register & manage parking lots, with visual interface to allow users to book parking spaces using RazorPay API as payment gateway.</p>
+
+                <a href="https://github.com/SlokAks/parking_management_system" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-link"></i>
+                </a>
+            </div>
+
+        </div>  
     </section>
 
     <section class="contact" id="contact">
@@ -174,6 +215,8 @@
     <footer>
         <p class="text-footer">Copyright &copy; 2022 Slok Aks - All rights reserved</p>
     </footer>
+
+    <script src="resp.js"></script>
     
 </body>
 </html>
