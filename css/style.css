@@ -147,6 +147,11 @@ html {
     font-size: 20px;
 }
 
+.links {
+    display: flex;
+    align-items: center;
+}
+
 .chevron {
     padding: 23px;
 }
@@ -385,13 +390,14 @@ html {
 
 .links {
     padding-bottom: 23px;
+    padding-right: 17px;
 }
 
 .links a {
     text-decoration: none;
     font-size: 43px;
     color:aliceblue;
-    padding: 0 23px;
+    margin: 0 23px;
 }
 
 .text-footer {

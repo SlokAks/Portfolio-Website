@@ -81,10 +81,15 @@
     .skills-start {
         max-width: 75%;
     }
-    
+
+    .links a {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 20px;
+    }  
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
 
     .contact .form .form-input {
         padding: 13px 13px;
