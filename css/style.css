@@ -10,6 +10,12 @@ html {
     scroll-behavior: smooth;
 }
 
+/* .WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+} */
+
 .navbar {
 
     display: flex ;
@@ -197,6 +203,51 @@ html {
     margin: 100px auto;
     padding: 0 13px;
     border-bottom: 2.5px solid lightgray;
+}
+
+.project {
+    padding-top: 63px;
+    padding-bottom: 63px;
+    background-color: rgb(248, 242, 227);
+}
+
+.project .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-family: 'Baloo Bhai 2', cursive;
+    max-width: 60%;
+    margin: auto;
+}
+
+.project-start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Baloo Bhai 2', cursive;
+    max-width: 90%;
+    margin: auto;
+}
+
+.project-card {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 63px 17px;
+}
+
+.project-title {
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.project-start p {
+    font-size: 23px;
+    padding: 23px;
 }
 
 .bars {
