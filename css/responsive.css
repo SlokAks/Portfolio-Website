@@ -32,3 +32,61 @@
         display: none;
     }
 }
+
+@media only screen and (max-width: 800px) {
+
+    .project-start {
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+    }
+
+    .project-card {
+        width: 250px;
+        min-height: 300px;
+        margin: 63px 17px;
+    }
+
+    .about-start {
+        max-width: 75%;
+    }
+
+    .skills-start {
+        max-width: 60%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .contact .form .form-input {
+        padding: 13px 20px;
+    }
+
+    .project-start {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        width: 250px;
+        min-height: 250px;
+        margin: 33px 17px;
+    }
+
+    .about-start {
+        max-width: 90%;
+    }
+
+    .skills-start {
+        max-width: 75%;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    .contact .form .form-input {
+        padding: 13px 13px;
+    }
+}
