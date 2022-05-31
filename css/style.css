@@ -223,7 +223,6 @@ html {
 
 .project-start {
     display: flex;
-    align-items: center;
     justify-content: center;
 
     font-family: 'Baloo Bhai 2', cursive;
@@ -233,21 +232,36 @@ html {
 
 .project-card {
     display: flex;
+    flex-direction: column;
     width: 250px;
-    height: 250px;
+    min-height: 250px;
     border: 2px solid black;
     border-radius: 5px;
     margin: 63px 17px;
+    position: relative;
 }
 
 .project-title {
+    display: block;
     text-align: center;
+    margin: 20px auto;
     font-family: 'Baloo Bhai 2', cursive;
+    border-bottom: 2px solid black;
 }
 
-.project-start p {
-    font-size: 23px;
-    padding: 23px;
+.project-card p {
+    padding-top: 7px;
+    text-align: center;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: black;
+    
+    /* padding-top: 15px; */
+    position: absolute;
+    bottom: 0;
+    left: 10px;
 }
 
 .bars {
